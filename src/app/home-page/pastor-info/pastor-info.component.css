@@ -1,0 +1,35 @@
+.pastor-info {
+  padding: 30px;
+  margin-top: 15px;
+  background-color: #c1e1ec;
+}
+
+.pastor-about {
+  padding: 20px;
+}
+
+.head-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+.head-img > img {
+  position: relative;
+  width: 44%;
+  height: auto;
+  left: 28%;
+  top: 100%;
+  border-radius: 50% 50%;
+}
+
+@media only screen and (max-width: 960px) {
+  .pastor-about {
+    padding: 20px;
+  }
+  .pastor-about > h2, .pastor-about > h1 {
+    text-align: center;
+  }
+}
+
